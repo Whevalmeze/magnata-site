@@ -1,0 +1,43 @@
+body{
+    padding: 2% 5%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto;
+    color: white;
+    gap: 16px;
+}
+*{
+    margin: 0;
+    margin-block: 0;
+    padding: 0;
+}
+header {
+    margin: auto;
+    padding: 1%;
+}
+header > img{
+    width: 100%;
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    min-height: 3rem;
+    height: 100%;
+}
+nav>ul{
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+nav>li{
+    display: inline-block;
+}
+#promo-wrapper{
+    background-image: url(/img/jasmin-chew-UBeNYvk6ED0-unsplash.jpg);
+    height: 75vh;
+    width: 100%;
+    background-position: 10px;
+}
